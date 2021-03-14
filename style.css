@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    width: 100%;
+    background-color: rgba(80, 194, 146, 0.438);
+    top: 0;
+    padding: 0.5rem;
+    min-width: fit-content;
+}
+h2{
+     text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: aliceblue;
+    background-image: url(https://s3.amazonaws.com/media.eremedia.com/wp-content/uploads/2018/08/17120635/bigstock-Search-with-magnifying-glass-118016582-700x467.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+audio{
+    margin: 1rem;
+    outline: none;
+    width: 100%;
+    max-width: 600px;
+}
+
+.outside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    overflow: hidden;
+}
+.main-site{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+     height: 350px;
+     width: 500px;
+     min-width: fit-content;
+     padding: 1rem;
+     border-radius: 1rem;
+     box-shadow: 5px black;
+     max-height: fit-content;
+     opacity: .8;
+     min-height: fit-content;
+     /* overflow: hidden; */
+}
+.loading{
+    display: none;
+}
+
+.input-area{
+
+        display: flex;
+        flex-direction: column;
+}
+
+.input{
+    padding: 1rem;
+    border-radius: 10px;
+    font-size: medium;
+    outline: none;
+    background-color: lightslategray;
+    color: white;
+}
+.btn{
+     margin: 30px;
+     border-radius: 10px;
+     padding: 5px;
+     background-color: lightseagreen;
+     outline: none;
+     -moz-user-focus: none;
+}
+
+.show{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+    height: fit-content;
+    overflow: scroll;
+    align-items: center;
+   
+    /* background-color: rgb(128, 31, 31); */
+}
+.h2{
+    color: black;
+    font-weight: bold;
+    font-size: xx-large;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.spandiv{
+    display: flex;
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+.suggested{
+    background-color: rgb(95, 134, 121);
+    color: black;
+    padding: 2px 10px;
+    margin: 10px;
+    border-radius: 7px;
+    outline: none;
+}
+.def{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    color: cadetblue;
+}
